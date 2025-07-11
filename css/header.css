@@ -1,0 +1,62 @@
+.header {
+    height: 100px;
+}
+
+.header-fixed{
+    padding: 17px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background: #212529;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger{
+    display: none;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.header-logo {
+    width: 90px;
+}
+
+.link {
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    transition: 0.3s linear;
+}
+
+.link:hover {
+    color: #FFB742;
+}
+
+.link-orange {
+    display: block;
+    width: 121px;
+    background: #FFB742;
+    border: 2px solid #FFB742;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #212529;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.link-flag {
+    width: 50px;
+}
