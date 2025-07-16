@@ -52,20 +52,27 @@ $(document).ready(function () {
         $('.burger').toggleClass('active')
         $('.nav').toggleClass('active')
         $('body').toggleClass('hiden')
+
     });
+
+    $('.link').click(function (e) {
+        $('.nav').removeClass('active')
+        $('.burger').removeClass('active')
+        $('body').removeClass('hiden')
+    })
 
     // btn up
 
-    $(window).scroll(function () { 
-        if($(this).scrollTop() > 200){
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
             $('.btn-up').fadeIn()
-        } else{
+        } else {
             $('.btn-up').fadeOut()
         }
     });
-    $('.btn-up').click(function () {  
+    $('.btn-up').click(function () {
         $('html, body').animate({
             scrollTop: 0
-        }, 1000)       
+        }, 1000)
     });
 });

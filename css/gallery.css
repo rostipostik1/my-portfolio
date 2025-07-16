@@ -26,6 +26,7 @@
     font-size: 16px;
     line-height: 30px;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 .gallery-item.active {
@@ -50,4 +51,9 @@
     max-width: 390px;
     width: 100%;
     margin: 0 auto;
+
+}
+
+.gallery-img img {
+    height: 100%;
 }

@@ -1,3 +1,7 @@
+.skills {
+    padding-top: 200px;
+}
+
 .skills-wrapper {
     display: flex;
     justify-content: space-between;

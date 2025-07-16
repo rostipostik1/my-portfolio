@@ -62,6 +62,22 @@
     .burger.active {
         background: url(../img/close.svg) no-repeat center;
     }
+
+    .hero {
+        padding: 50px 0 50px 0;
+    }
+
+    .aboutme {
+        padding: 100px 0 50px;
+    }
+
+    .skills {
+        padding-top: 100px;
+    }
+
+    .gallery {
+        padding: 70px 0;
+    }
 }
 
 @media(max-width:450px) {
