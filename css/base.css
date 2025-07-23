@@ -72,3 +72,8 @@ body {
 section {
   scroll-margin-top: 100px; /* высота твоего фиксированного хедера */
 }
+
+.pageUa .link-orange,
+.pageUa .iner-subtitle {
+    width: 175px;
+}
